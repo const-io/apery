@@ -4,7 +4,10 @@ Apery's Constant
 
 > [Apery's][apery-constant] constant.
 
-
+<div class="equation" align="center" data-raw-text="\zeta(3) = \sum_{n=1}^\infty \frac{1}{n^3} = \lim_{n\to\infty} \biggl(\frac{1}{1^3} + \frac{1}{2^3} + \cdots + \frac{1}{n^3}\biggr)" data-equation="eq:apery_constant">
+	<img src="https://cdn.rawgit.com/const-io/apery/9e90f3e723426a7685beca207e363b7f8f5dc02e/docs/img/apery.svg" alt="Apery's constant">
+	<br>
+</div>
 
 
 ## Installation
