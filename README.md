@@ -1,13 +1,17 @@
-Apery's Constant
+Apéry's Constant
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
-> [Apery's][apery-constant] constant.
+> [Apéry's][apery-constant] constant.
+
+[Apéry's][apery-constant] is defined as
 
 <div class="equation" align="center" data-raw-text="\zeta(3) = \sum_{n=1}^\infty \frac{1}{n^3} = \lim_{n\to\infty} \biggl(\frac{1}{1^3} + \frac{1}{2^3} + \cdots + \frac{1}{n^3}\biggr)" data-equation="eq:apery_constant">
-	<img src="https://cdn.rawgit.com/const-io/apery/9e90f3e723426a7685beca207e363b7f8f5dc02e/docs/img/apery.svg" alt="Apery's constant">
+	<img src="https://cdn.rawgit.com/const-io/apery/9e90f3e723426a7685beca207e363b7f8f5dc02e/docs/img/apery.svg" alt="Apéry's constant">
 	<br>
 </div>
+
+where `ζ(s)` is the [Riemann zeta function][riemann-zeta].
 
 
 ## Installation
@@ -25,7 +29,7 @@ var APERY = require( 'const-apery' );
 
 #### APERY
 
-[Apery's][apery-constant] constant.
+[Apéry's][apery-constant] constant.
 
 ``` javascript
 APERY === 1.2020569031595942;
@@ -129,3 +133,4 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 
 [apery-constant]: https://en.wikipedia.org/wiki/Ap%C3%A9ry%27s_constant
 [compute-io]: https://github.com/compute-io
+[riemann-zeta]: https://github.com/math-io/riemann-zeta
